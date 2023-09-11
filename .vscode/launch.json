@@ -1,0 +1,64 @@
+{
+    "configurations": [
+      {
+        "name": "Deploy Cloud Function",
+        "type": "cloudcode.cloudfunctions",
+        "request": "launch",
+        "functionName": "LastChance",
+        "gen": "GEN_2",
+        "revision": "lastchance-00004-wow",
+        "entryPoint": "helloHttp",
+        "testInput": "",
+        "region": "europe-west2",
+        "runtime": "nodejs16"
+      },
+      {
+        "name": "Deploy Cloud Function",
+        "type": "cloudcode.cloudfunctions",
+        "request": "launch",
+        "functionName": "CloudFunctionTest",
+        "gen": "GEN_2",
+        "revision": "cloudfunctiontest-00001-rab",
+        "entryPoint": "helloHttp",
+        "testInput": "",
+        "region": "europe-west2",
+        "runtime": "nodejs20"
+      },
+      {
+        "name": "Deploy Cloud Function",
+        "type": "cloudcode.cloudfunctions",
+        "request": "launch",
+        "functionName": "testos",
+        "gen": "GEN_2",
+        "revision": "testos-00004-xaf",
+        "entryPoint": "helloHttp",
+        "testInput": "",
+        "region": "europe-west2",
+        "runtime": "nodejs20"
+      },
+      {
+        "name": "Deploy Cloud Function",
+        "type": "cloudcode.cloudfunctions",
+        "request": "launch",
+        "functionName": "test-technique",
+        "gen": "GEN_2",
+        "revision": "1",
+        "entryPoint": "helloHttp",
+        "testInput": "",
+        "region": "europe-west2",
+        "runtime": "nodejs20"
+      },
+      {
+        "name": "Deploy Cloud Function",
+        "type": "cloudcode.cloudfunctions",
+        "request": "launch",
+        "functionName": "function-hello-world",
+        "gen": "GEN_2",
+        "entryPoint": "helloHttp",
+        "revision": "function-hello-world-00006-pog",
+        "testInput": "",
+        "region": "europe-west2",
+        "runtime": "nodejs20"
+      }
+    ]
+}
